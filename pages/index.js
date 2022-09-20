@@ -82,7 +82,7 @@ export default function Home() {
             <p className="text-red-800 text-2xl font-light my-8">We got the juiciest burgers in town. And if you don&apos;t know, now you know.</p>
             <button className="bg-yellow-400 uppercase p-4 w-36 rounded text-yellow-50">Menu</button>
           </div>
-          <div ref={biggieHero} className="flex relative lg:absolute md:w-full 2xl:relative 2xl:w-1/2 justify-end">
+          <div ref={biggieHero} className="flex relative lg:absolute md:w-full 2xl:relative 2xl:w-1/2 justify-end -mb-1 lg:mb-1">
             <Image
             src={biggieImage} 
             alt="Biggie Hero" 
@@ -95,8 +95,8 @@ export default function Home() {
               <p className="text-xl font-light text-yellow-50 mt-8">Biggie patties are made from a blend of sirloin and chuck, sourced locally from Upstate Farms. We don’t sacrifice on quality.</p>
           </div>
         </div>
-        <div className="bg-yellow-50 h-fit flex justify-center">
-          <div className="w-5/6 border-4 border-red-800 mt-16">
+        <div className="bg-yellow-50 h-fit flex justify-center ">
+          <div className="w-5/6 border-4 border-red-800 mt-16 max-w-4xl">
             <h1 className="text-5xl text-center text-red-800 font-bold py-4 border-b-4 border-red-800 mb-8">Menu</h1>
           {
             mainMenuList.map(menuItem => {
