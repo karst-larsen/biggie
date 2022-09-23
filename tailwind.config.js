@@ -5,6 +5,10 @@ module.exports = {
     "./components/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
+    fontFamily: {
+      'Lora': 'Lora, serif',
+      'Manrope': 'Manrope, sans-serif',
+    },
     extend: {
       height: {
         '136': '34rem'
